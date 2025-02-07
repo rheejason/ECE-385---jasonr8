@@ -1,0 +1,192 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Feb  7 06:05:01 2025
+# Process ID: 7349
+# Current directory: /home/user/Desktop/lab2_2/lab2_2.runs/impl_1
+# Command line: vivado -log Processor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Processor.tcl -notrace
+# Log file: /home/user/Desktop/lab2_2/lab2_2.runs/impl_1/Processor.vdi
+# Journal file: /home/user/Desktop/lab2_2/lab2_2.runs/impl_1/vivado.jou
+# Running On: 5d1788fd80d4, OS: Linux, CPU Frequency: , CPU Physical cores: 1, Host memory: 8218 MB
+#-----------------------------------------------------------
+source Processor.tcl -notrace
+Command: open_checkpoint /home/user/Desktop/lab2_2/lab2_2.runs/impl_1/Processor.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1690.531 ; gain = 0.262 ; free physical = 1429 ; free virtual = 3364
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2079.938 ; gain = 0.055 ; free physical = 953 ; free virtual = 2894
+INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2544.938 ; gain = 6.453 ; free physical = 369 ; free virtual = 2313
+Restored from archive | CPU: 0.080000 secs | Memory: 1.215332 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2544.941 ; gain = 6.465 ; free physical = 369 ; free virtual = 2313
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2545.203 ; gain = 0.000 ; free physical = 369 ; free virtual = 2313
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2022.2 (64-bit) build 3671981
+OpenCheckpoint Checksum | Checksum: 10097dfb5
+----- Checksum: PlaceDB: 9bf63b52 ShapeSum: 64a1a463 RouteDB: 00000000 
+open_checkpoint: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 2545.316 ; gain = 855.699 ; free physical = 369 ; free virtual = 2313
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.87 . Memory (MB): peak = 2640.160 ; gain = 91.656 ; free physical = 352 ; free virtual = 2297
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 137d84b99
+
+Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.2 . Memory (MB): peak = 2730.297 ; gain = 90.137 ; free physical = 345 ; free virtual = 2290
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/user/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-329] Generating Script for core instance : u_ila_0 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_0_CV.
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Feb  7 06:18:33 2025
+# Process ID: 698
+# Current directory: /home/user/Desktop/lab2_2/lab2_2.runs/impl_1
+# Command line: vivado -log Processor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Processor.tcl -notrace
+# Log file: /home/user/Desktop/lab2_2/lab2_2.runs/impl_1/Processor.vdi
+# Journal file: /home/user/Desktop/lab2_2/lab2_2.runs/impl_1/vivado.jou
+# Running On: fe6cc5a6e644, OS: Linux, CPU Frequency: , CPU Physical cores: 1, Host memory: 8218 MB
+#-----------------------------------------------------------
+source Processor.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1726.875 ; gain = 2.152 ; free physical = 1340 ; free virtual = 4653
+Command: link_design -top Processor -part xc7s50csga324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2079.414 ; gain = 0.055 ; free physical = 909 ; free virtual = 4243
+INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/user/Desktop/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc]
+Finished Parsing XDC File [/home/user/Desktop/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2233.855 ; gain = 0.000 ; free physical = 773 ; free virtual = 4117
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2238.250 ; gain = 510.801 ; free physical = 767 ; free virtual = 4110
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.86 . Memory (MB): peak = 2327.820 ; gain = 89.484 ; free physical = 739 ; free virtual = 4083
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 137d84b99
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2778.543 ; gain = 450.723 ; free physical = 247 ; free virtual = 3611
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/user/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-329] Generating Script for core instance : u_ila_0 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_0_CV.
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Feb  7 06:47:21 2025
+# Process ID: 3022
+# Current directory: /home/user/Desktop/lab2_2/lab2_2.runs/impl_1
+# Command line: vivado -log Processor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Processor.tcl -notrace
+# Log file: /home/user/Desktop/lab2_2/lab2_2.runs/impl_1/Processor.vdi
+# Journal file: /home/user/Desktop/lab2_2/lab2_2.runs/impl_1/vivado.jou
+# Running On: 8bced5698600, OS: Linux, CPU Frequency: , CPU Physical cores: 1, Host memory: 8218 MB
+#-----------------------------------------------------------
+source Processor.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1718.875 ; gain = 2.164 ; free physical = 875 ; free virtual = 3369
+Command: link_design -top Processor -part xc7s50csga324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2071.379 ; gain = 0.051 ; free physical = 486 ; free virtual = 2998
+INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/user/Desktop/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc]
+Finished Parsing XDC File [/home/user/Desktop/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2225.801 ; gain = 0.000 ; free physical = 359 ; free virtual = 2875
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2230.238 ; gain = 510.789 ; free physical = 351 ; free virtual = 2868
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.91 . Memory (MB): peak = 2322.625 ; gain = 92.301 ; free physical = 316 ; free virtual = 2832
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 137d84b99
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2770.258 ; gain = 447.633 ; free physical = 96 ; free virtual = 2418
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/user/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-329] Generating Script for core instance : u_ila_0 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_0_CV.
